@@ -1,0 +1,76 @@
+div.reading{
+    width: 1300px;
+    height: auto;
+    margin: 24px auto 0;
+}
+div.reading>div:nth-of-type(1){
+    width: inherit;
+    height: 66px;
+    position: relative;
+    padding: 16px 20px;
+}
+div.reading>div:nth-of-type(1)>span{
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    color: rgb(8, 10, 56);
+    font-size: 16px;
+    font-weight: 700;
+}
+div.reading>div:nth-of-type(1)>a{
+    height: fit-content;
+    position: absolute;
+    left: 20px;
+    top: 23px;
+}
+div.reading>div:nth-of-type(1)>a>span{
+    color: rgb(25, 191, 211);
+    font-size: 12px;
+    font-weight: 700;
+}
+div.reading>div:nth-of-type(1)>a>svg{
+    vertical-align: middle;
+    padding-left: 2px;
+}
+div.reading>div:nth-of-type(1)>a>svg>path{
+    transform: scale(0.75,0.75);
+}
+div.reading>div:nth-of-type(2){
+    width: 100%;
+    height: inherit;
+}
+div.reading>div:nth-of-type(2)>a{
+    width: 315px;
+    height: 280px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    border: 0.8px solid #d8d8d8;
+    margin-left: 8px;
+    vertical-align: top;
+}
+div.reading>div:nth-of-type(2)>a:nth-last-of-type(1){
+    margin-left: 0;
+}
+div.reading>div:nth-of-type(2)>a>img{
+    width:313.400px ;
+    height: 201px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+div.reading>div:nth-of-type(2)>a>div{
+    width: inherit;
+    height: 58px;
+    position: relative;
+    top: 0;
+}
+div.reading>div:nth-of-type(2)>a>div>span{
+    display: inline-block;
+    width: 100%;
+    padding: 8px 16px 0;
+    color: rgb(8, 10, 56);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    
+}

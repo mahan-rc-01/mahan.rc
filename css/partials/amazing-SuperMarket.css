@@ -1,0 +1,137 @@
+div.Amazing-superMarket{
+    width: 1300px;
+    height: 110px;
+    margin: 20px auto 0;
+    background-color: #EDF0F0;
+    border-radius: 16px;
+    background-image: url('../../images/logo/amazing-supermarket-BGimage.svg');
+    background-repeat:no-repeat ;
+    background-position: left center;
+}
+div.Amazing-superMarket>a{
+    width: 100%;
+    height: 100%;
+    padding-top:calc((110px - 80px) / 2) ;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-right{
+    width:40%;
+    height: 65px;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -3px;
+    vertical-align: middle;
+    padding-right: 35px;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-right>img{
+    width: 66px;
+    height: 60px;
+    margin-top: 2px;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-right>div{
+    display: inline-block;
+    margin: 15px 5px 0;
+    width: 250px;
+    height: 50px;
+    vertical-align: top;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-right>div>img{
+    width: 250px;
+    height: 30px;
+    object-fit: contain;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-right>div#text{
+    display: inline-block;
+    width: 115px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #39AE00;
+    vertical-align: top;
+    border-radius: 16px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-right>div#text>p{
+    font-family: digikala;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-left{
+    width: 60%;
+    height: 80px;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -3px;
+    line-height: 80px;
+    padding-right: 100px;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-left>div{
+    width: 74px;
+    height: 74px;
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-left: 2px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 2px;
+    vertical-align: top;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-left>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-left>div>div.gerdha{
+        width: 34px;
+        height: 20px;
+        background-color: #ee384e;
+        border-radius: 15px;
+        text-align: center;
+        display: inline-block;
+        box-sizing: content-box;
+        position: relative;
+        bottom: 45px;
+        left: 6px;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-left>div>div.gerdha>span{
+    font-family: digikala;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    display: inline;
+    vertical-align: top;
+    position: relative;
+    bottom: 29px;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-left>div#text2{
+    width: 150px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    top: 10px;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-left>div#text2>p{
+    width: 100%;
+    height: 25px;
+    font-family: digikala;
+    font-size: 12px;
+    color: #39AE00;
+    font-weight: bold;
+    position: relative;
+    bottom: 13px;
+    left: 11px;
+    display: inline-block;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-left>div#text2>svg{
+    position: relative;
+    bottom: 86px;
+    right: 45px;
+}
+div.Amazing-superMarket>a>div.Amazing-superMarket-left>div#text2>svg>path{
+    transform: scale(0.83,0.83);
+}

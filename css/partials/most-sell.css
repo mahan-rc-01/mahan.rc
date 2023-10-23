@@ -1,0 +1,103 @@
+div.most-sell{
+    width: 1300px;
+    height: 370px;
+    padding: 16px 0;
+    margin: 24px auto 0;
+    border-radius: 16px;
+    border: 0.8px solid #d8d8d8;
+}
+div.most-sell>div.most-sell-top{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    position: relative;
+}
+div.most-sell>div.most-sell-top>svg{
+    position: absolute;
+    right: 41.5%;
+    top: 10px;
+}
+div.most-sell>div.most-sell-top>h4{
+    line-height: 44px;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(8, 10, 56);
+}
+div.most-sell>div.most-sell-top>a{
+    position: absolute;
+    left: 16px;
+    bottom: 10px;
+    color: rgb(25, 191, 211);
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+}
+div.most-sell>div.most-sell-bottom{
+    width: 100%;
+    height: 266px;
+    margin-top: 28px;
+    padding: 0 8px;
+}
+div.most-sell>div.most-sell-bottom>div.mySwiper-4{
+    width: inherit;
+    height: inherit;
+}
+.most-sell-slider{
+    width: 306px !important;
+    height: inherit;
+    margin-left: 5px !important;
+}
+.most-sell-slider>div.most-sell-bug{
+    width: 100%;
+    height: 86px;
+}
+.most-sell-slider>div.most-sell-bug>a{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.most-sell-bug{
+    margin-top: 4px;
+}
+.most-sell-SVGbug{
+    position: absolute !important ;
+    right: 493px !important;
+}
+.most-sell-slider>div.most-sell-bug>a>img{
+    width: 86px;
+    height: 86px;
+    object-fit: contain;
+    margin-left: 12px;
+    vertical-align: top;
+}
+.most-sell-slider>div.most-sell-bug>a>span{
+    display: inline-block;
+    height: 50px;
+    color: rgb(25, 191, 211);
+    font-size: 26px;
+    font-weight: 800;
+    margin-left: 12px;
+    vertical-align: top;
+    position: relative;
+    top: 25px;
+    vertical-align: top;
+}
+.most-sell-slider>div.most-sell-bug>a>p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(63, 64, 100);
+    vertical-align: top;
+    display: inline-block;
+    width: 180px;
+    height: 69px;
+    border-bottom: 0.8px solid #edf0f0;
+    position: absolute;
+    top: 10px;
+    line-height: 30px;
+    overflow: hidden;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+}
+.most-sell-slider>div.most-sell-bug:last-child>a>p{
+    border: none;
+}

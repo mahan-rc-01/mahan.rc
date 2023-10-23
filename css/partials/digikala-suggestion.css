@@ -1,0 +1,76 @@
+div.digikala-suggestion{
+    width: 1300px;
+    height: 395px;
+    margin:24px auto 0 ;
+}
+div.digikala-suggestion>div.digikala-suggestion-top{
+    width: 100%;
+    height: 76px;
+    text-align: center;
+}
+div.digikala-suggestion>div.digikala-suggestion-top>span{
+    font-size: 21px;
+    font-weight: 500;
+    color: #080a38;
+    line-height: 76px;
+}
+div.digikala-suggestion>div.digikala-suggestion-bottom{
+    width: 100%;
+    height: 311px;
+    margin-top: 8px;
+    border: 0.8px solid #d8d8d8;
+    border-radius: 16px;
+}
+div.digikala-suggestion>div.digikala-suggestion-bottom>div.digikala-suggestion-bottom-up,div.digikala-suggestion-bottom-down{
+    width: 100%;
+    height: 155.5px;
+}
+div.digikala-suggestion>div.digikala-suggestion-bottom>div.digikala-suggestion-bottom-up>div,div.digikala-suggestion-bottom-down>div{
+    width: 185px;
+    height: inherit;
+    display: inline-block;
+    margin-left: -3px;
+    text-align: center;
+    border-bottom: 0.8px solid #edf0f0;
+    border-left: 0.8px solid #edf0f0;
+}
+div.digikala-suggestion>div.digikala-suggestion-bottom>div.digikala-suggestion-bottom-up>div>a,div.digikala-suggestion-bottom-down>div>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div.digikala-suggestion>div.digikala-suggestion-bottom>div.digikala-suggestion-bottom-up>div>a>div,div.digikala-suggestion-bottom-down>div>a>div{
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background-color: rgb(241, 242, 244);
+    text-align: center;
+    position: relative;
+    top: 18px;
+}
+div.digikala-suggestion>div.digikala-suggestion-bottom>div.digikala-suggestion-bottom-up>div>a>div>img,div.digikala-suggestion-bottom-down>div>a>div>img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    position: relative;
+    top: 12px;
+}
+div.digikala-suggestion>div.digikala-suggestion-bottom>div.digikala-suggestion-bottom-up>div>a>p,div.digikala-suggestion-bottom-down>div>a>p{
+    color: #080a38;
+    font-size: 14px;
+    margin-top: 8px;
+    position: relative;
+    top: 22px;
+}
+.bug-2{
+    border-top: 0;
+    border-left: 0 !important;
+}
+.bug-3{
+    border-top: 0;
+    border-bottom: 0 !important;
+}
+.bug-3-1{
+    border-left: 0 !important;
+}

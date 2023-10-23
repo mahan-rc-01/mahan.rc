@@ -1,0 +1,55 @@
+div.brands{
+    width: 1304px;
+    height: 223px;
+    margin: 24px auto 0;
+    padding: 24px 0;
+    border: 1px solid #d8d8d8;
+    border-radius: 16px;
+}
+div.brands>div.brands-top{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+}
+div.brands>div.brands-top>span{
+    font-size: 21px;
+    font-weight: 500;
+    color: #080a38;
+    line-height: 44px;
+}
+div.brands>div.brands-top>svg{
+    position: relative;
+    top: 7px;
+}
+div.brands>div.brands-bottom{
+    width: 100%;
+    height: calc(175px - 44px);
+    background-color: white;
+    margin-top: 8px;
+}
+div.brands>div.brands-bottom>div.brands-sweiper{
+    width: 100%;
+    height: 100%;
+}
+div.brands-sweiper div.brands-slider{
+    width: 142px !important;
+    height: inherit;
+    background-color: white;
+    border-left: 1px solid #edf0f0; 
+}
+div.brands-sweiper div.brands-slider>a{
+    width: 100%;
+    height: 100%;
+}
+div.brands-sweiper div.brands-slider>a>div{
+    width: 100%;
+    height: 100%;
+    padding: 4px 16px;
+}
+div.brands-sweiper div.brands-slider>a>div>img{
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    position: relative;
+    top: 10px;
+}

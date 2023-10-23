@@ -1,0 +1,203 @@
+div.slider-normal{
+    width: 1300px;
+    height: 300px;
+    background-color: #ef4056;
+    margin: 20px auto 0;
+    padding: 20px 3px;
+    border-radius: 20px;
+}
+div.slider-normal>div.mySwiper-2>div.swiper-wrapper>div.swiper-slide{
+    width: 170px !important;
+    height: 260px;
+    padding: 10px;
+    background-color: white;
+}
+ .next-style,.pre-style{
+     background-color: white !important;
+     border: 0.8px solid #d8d8d8;
+}
+.next-style::after,.pre-style::after{ 
+    color: #3f4064;
+    transform: scale(0.26,0.23);
+    font-weight: 800 !important;
+    font-size: 50px !important;
+}
+.next-style{
+    left: auto !important;
+    right: calc(100% - 50px) !important;
+    top: calc(50%) !important;
+}
+.pre-style{
+    opacity: 1;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
+    opacity: 0 !important;
+}
+/**********************css for first slider with transparent back-ground color ***********************/
+.slide1{
+    background-color: #ef4056 !important;
+}
+div.slider-normal div.swiper-wrapper>div.slide1>a{
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+div.slider-normal div.swiper-wrapper>div.slide1>a>div{
+    text-align: center;
+}
+div.slider-normal div.swiper-wrapper>div.slide1>a>div>img#shgeftAnghiz{
+    width: 92px;
+    height: 77px;
+    margin-top: 10px;
+    display: inline-block;
+}
+div.slider-normal div.swiper-wrapper>div.slide1>a>div>img#shgeftAnghiz-box{
+    width: 145px;
+    height: 115px;
+    object-fit: contain;
+    display: inline-block; 
+}
+div.slider-normal div.swiper-wrapper>div.slide1>a>div>div{
+    width: auto;
+    height: 35px;
+    text-align: center;
+    line-height: 5px;
+}
+div.slider-normal div.swiper-wrapper>div.slide1>a>div>div>span{
+    color: white;
+    font-size: 14px;
+    font-family: digikala;
+    font-weight: bolder;
+}
+div.slider-normal div.swiper-wrapper>div.slide1>a>div>div>svg{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+div.slider-normal div.swiper-wrapper>div.slide1>a>div>div>svg>path{
+    transform: scale(0.75,0.75);
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR{
+    padding: 10px !important;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>img{
+    width: 150px;
+    height: 150px;
+    display: inline-block; 
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-top{
+    width: 100%;
+    height: 35px;
+    direction: ltr;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-top>div.slide-borderR-top-left{
+    width: 70%;
+    height: inherit;
+    text-align: left;
+    line-height: 35px;
+    display: inline-block;
+    margin-right: -3px;
+    vertical-align: top;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-top>div.slide-borderR-top-left>svg{
+    vertical-align: middle;
+    margin-left: 3px;
+    padding-left: 1px;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-top>div.slide-borderR-top-left>svg>path{
+    transform: scale(1.1);
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-top>div.slide-borderR-top-left>span{
+    font-family: digikala;
+    font-size: 16px;
+    color: #3f4064;
+    padding-right: 3px;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-top>div.slide-borderR-top-right{
+    width: 30%;
+    height: inherit;
+    display: inline-block;
+    margin-right:-3px ;
+    vertical-align: top;
+    text-align: center;
+    padding: 7px 5px;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-top>div.slide-borderR-top-right>div{
+    width: 35px;
+    height: 20px;
+    background-color: #ef4056;
+    display: inline-block;
+    border-radius: 11px;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-top>div.slide-borderR-top-right>div>span{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 2px;
+    line-height: 16px;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-bottom{
+    width: 100%;
+    height: 30px;
+}
+div.slider-normal div.swiper-wrapper>div.slide-borderR>a>div.slide-borderR-bottom>p{
+    width: inherit;
+    height: inherit;
+    text-align: left;
+    padding-left: 25px;
+    color: #c3c3ce;
+    text-decoration-line: line-through;
+    text-decoration-color: #c3c3ce;
+    font-size: 12px;
+    font-family: digikala;
+    margin-top: 5px;
+}
+.border{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+.borderL{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+div.lastSlide{
+    width: auto;
+    height: auto;
+    padding: 75px 35px !important;
+}
+div.lastSlide>a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+}
+div.lastSlide>a>div{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #19bfd3;
+    text-align: center;
+    margin: 5px auto;
+    padding-right: 3px;
+}
+div.lastSlide>a>div>svg{
+    margin-top: 10px;
+}
+div.lastSlide>a>div>svg>path{
+    vertical-align: middle;
+}
+div.lastSlide>a>p{
+    font-family: digikala;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #3f4064;
+}

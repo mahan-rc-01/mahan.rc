@@ -1,0 +1,71 @@
+div.category{
+    width: 100%;
+    height: 380px;
+    margin-top: 24px;
+}
+div.category>div{
+    width: 1270px;
+    height: inherit;
+    position: relative;
+    right: calc(50% - 1270px / 2);
+}
+div.category>div>div.category-top{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+}
+div.category>div>div.category-top>span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 21px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+}
+div.category>div>div.category-bottom{
+    width: 100%;
+    height: 300px;
+}
+div.category>div>div.category-bottom>div.category-bottom-up{
+    width: 100%;
+    height: 150px;
+}
+div.category>div>div.category-bottom>div.category-bottom-up>div,div.category-bottom-down>div{
+    width: 180px;
+    height: 135px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-left: -2px;
+}
+div.category>div>div.category-bottom>div.category-bottom-up>div>a,div.category-bottom-down>div>a{
+    display: block;
+    width: 95%;
+    height: 100%;
+    text-align: center;
+}
+div.category>div>div.category-bottom>div.category-bottom-up>div>a>img,div.category-bottom-down>div>a>img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    position: relative;
+    right: 40px;
+}
+div.category>div>div.category-bottom>div.category-bottom-up>div>a>span,div.category-bottom-down>div>a>span{
+    display: inline-block;
+    height: 26px;
+    margin-top: 8px;
+    color: #080a38;
+    font-size: 12px;
+    font-weight: bolder;
+    
+}
+div.category>div>div.category-bottom>div.category-bottom-down{
+    width: fit-content;
+    height: 150px;
+    position: relative;
+    right: 80px;
+}
